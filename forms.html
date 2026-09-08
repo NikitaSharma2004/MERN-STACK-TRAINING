@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+```html
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f6f8;
+        margin: 0;
+        padding: 40px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 30px;
+    }
+
+    form {
+        width: 400px;
+        margin: auto;
+        padding: 30px;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    form div {
+        margin-bottom: 18px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 7px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    input,
+    select {
+        width: 100%;
+        padding: 11px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    input:focus,
+    select:focus {
+        outline: none;
+        border-color: #3498db;
+        box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 6px;
+        background-color: #2c3e50;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #3498db;
+    }
+</style>
+```
+
+</head>
+
+<body>
+    <h1>Forms in HTML</h1>
+    <!-- form starts here -->
+    <form action="/submit.php">
+        <!-- Text input for name -->
+        <div>
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter Name" required>
+        </div>
+
+        <!-- Phone input -->
+        <div>
+            <label for="Phone">Phone</label>
+            <input id="Phone" type="tel" placeholder="Enter Phone" required>
+        </div>
+        <!-- Email input -->
+        <div>
+            <label for="Email">Email</label>
+            <input id="Email" type="email" placeholder="Enter Email" required>
+        </div>
+        <!-- password input -->
+        <div>
+            <label for="Password">Password</label>
+            <input id="Password" type="password" placeholder="Enter Passwprd" required>
+        </div>
+        <!-- Date input -->
+        <div>
+            <label for="DOB">Date of Birth</label>
+            <input id="DOB" type="date" required>
+        </div>
+
+        <!-- Dropdown (select input) for gender  -->
+        <div>
+            <label for="gender">Gender</label>
+            <select id="gender" required>
+                <option value=""disabled selected>Select Gender</option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Submit </button>
+        </div>
+        
+    </form>
+</body>
+
+</html>
