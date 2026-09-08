@@ -16,13 +16,13 @@ Here is a breakdown of the HTML & CSS practice files included in this repo:
 * **layout.html** — Basic webpage layouts and semantic HTML tags (header, main, section, footer).
 * **bookmark website.html** — A mini-project implementing external links and bookmark navigation.
 * **ai.html** — Exploratory practice page.
-* 
+
 ---
 
 ## 🛠️ Tech Stack Used
 
 * **Languages:** HTML5, CSS3
 * **Tools:** Visual Studio Code, Git, GitHub
-* 
+ 
 ---
 Created with ❤️ during my web development journey.
